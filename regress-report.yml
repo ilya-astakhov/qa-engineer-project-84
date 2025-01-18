@@ -12,7 +12,7 @@
   status: pass
 
 bugreports:
-- summary: |
+  - summary: |
     В корзине неправильно считается цена нескольких товаров
   environment: |
     Opera One(версия: 115.0.5322.119)
