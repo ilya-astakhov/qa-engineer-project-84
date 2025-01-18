@@ -18,14 +18,14 @@ bugreports:
     environment: |
       Opera One(версия: 115.0.5322.119)
       ОС Windows 10 Pro 64
-  steps-to-reproduce: |
+    steps-to-reproduce: |
       1. Открыть страницу магазина
       2. Ввести в поиске Dog Food. Проблема со всеми, но считать удобнее с ним
       3. Добавить в корзину 2 единицы товара
       4. Перейти в корзину и посмотреть результат
-  expected-result: |
+    expected-result: |
       Сумма 2 пачек корма в корзине должна быть 18$
-  actual-result: |
+    actual-result: |
       Сумма 2 пачек корма в корзине 17.99$
 
   - summary: |
@@ -33,11 +33,11 @@ bugreports:
     environment: |
       Opera One(версия: 115.0.5322.119)
       ОС Windows 10 Pro 64
-  steps-to-reproduce: |
+    steps-to-reproduce: |
       1. Открыть страницу магазина
-  expected-result: |
+    expected-result: |
       Внизу списка производителей, товары, не имеющие такового, должны быть как-то названы. Например: другое
-  actual-result: |
+    actual-result: |
       Отображается пустая графа
 
   - summary: |
@@ -45,12 +45,12 @@ bugreports:
     environment: |
       Opera One(версия: 115.0.5322.119)
       ОС Windows 10 Pro 64
-  steps-to-reproduce: |
+    steps-to-reproduce: |
       1. Открыть страницу магазина
       2. Нажать Next в верху страницы
-  expected-result: |
+    expected-result: |
       Слева сбоку должны отображаться производители
-  actual-result: |
+    actual-result: |
       Не отображаются
 
   - summary: |
@@ -58,13 +58,13 @@ bugreports:
     environment: |
       Opera One(версия: 115.0.5322.119)
       ОС Windows 10 Pro 64
-  steps-to-reproduce: |
+    steps-to-reproduce: |
       1. Открыть страницу магазина
       2. Ввести в поиск Black Aluminium Cup или Tissue Paper Box
       3. Открыть страницу товара
-  expected-result: |
+    expected-result: |
       Фотографии должны быть либо с разных ракурсов, либо она должна быть одна
-  actual-result: |
+    actual-result: |
       Отображаются две одинаковые фотографии
 
   - summary: |
@@ -72,12 +72,12 @@ bugreports:
     environment: |
       Opera One(версия: 115.0.5322.119)
       ОС Windows 10 Pro 64
-  steps-to-reproduce: |
+    steps-to-reproduce: |
       1. Открыть страницу магазина
       2. Ввести в графу Price, в From - To: 700 и 750
-  expected-result: |
+    expected-result: |
       В данном диапазоне должен отобразиться Wooden Bathroom Sink With Mirror, стоящий с учетом скидки 710.23 баксов
-  actual-result: |
+    actual-result: |
       Теперь отображаются вообще все товары
 
   - summary: |
@@ -85,13 +85,13 @@ bugreports:
     environment: |
       Opera One(версия: 115.0.5322.119)
       ОС Windows 10 Pro 64
-  steps-to-reproduce: |
+    steps-to-reproduce: |
       1. Открыть страницу магазина
       2. Ввести в поиск Calvin Klein CK One (для примера взят этот)
       3. Открыть страницу товара Calvin Klein CK One
-  expected-result: |
+    expected-result: |
       Заглавное фото без полей
-  actual-result: |
+    actual-result: |
       Заглавное фото отображается с черными вертикальными полосами по бокам
 
   - summary: |
@@ -99,10 +99,10 @@ bugreports:
     environment: |
       Opera One(версия: 115.0.5322.119)
       ОС Windows 10 Pro 64
-  steps-to-reproduce: |
+    steps-to-reproduce: |
       1. На странице магазина добавить произвольно в корзину 3 разных товара
       2. Перейти в корзину: https://hexlet-products-store.vercel.app/cart
-  expected-result: |
+    expected-result: |
       Количество товаров должно быть выровняно по вертикальной оси
-  actual-result: |
+    actual-result: |
       Выравнивания нет, количество товаров отображается произвольно
