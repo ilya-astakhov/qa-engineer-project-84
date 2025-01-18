@@ -15,7 +15,7 @@ test-cases:
 bugreports:
   - summary: |
       В корзине неправильно считается цена нескольких товаров
-  environment: |
+    environment: |
       Opera One(версия: 115.0.5322.119)
       ОС Windows 10 Pro 64
   steps-to-reproduce: |
@@ -30,7 +30,7 @@ bugreports:
 
   - summary: |
       В графе "Производитель" товары без производителя не имеют названия
-  environment: |
+    environment: |
       Opera One(версия: 115.0.5322.119)
       ОС Windows 10 Pro 64
   steps-to-reproduce: |
@@ -42,7 +42,7 @@ bugreports:
 
   - summary: |
       При переходе на вторую страницу магазина, исчезают производители
-  environment: |
+    environment: |
       Opera One(версия: 115.0.5322.119)
       ОС Windows 10 Pro 64
   steps-to-reproduce: |
@@ -55,7 +55,7 @@ bugreports:
 
   - summary: |
       На листе товара Black Aluminium Cup одинаковые фотографии. Аналогичный баг с Tissue Paper Box
-  environment: |
+    environment: |
       Opera One(версия: 115.0.5322.119)
       ОС Windows 10 Pro 64
   steps-to-reproduce: |
@@ -69,7 +69,7 @@ bugreports:
 
   - summary: |
       Неправильно работает поиск по стоимости. Не включена скидка
-  environment: |
+    environment: |
       Opera One(версия: 115.0.5322.119)
       ОС Windows 10 Pro 64
   steps-to-reproduce: |
@@ -82,7 +82,7 @@ bugreports:
 
   - summary: |
       У некоторых товаров на фото черные полосы по бокам
-  environment: |
+    environment: |
       Opera One(версия: 115.0.5322.119)
       ОС Windows 10 Pro 64
   steps-to-reproduce: |
@@ -96,7 +96,7 @@ bugreports:
 
   - summary: |
       В корзине не работает выравнивание количества товаров
-  environment: |
+    environment: |
       Opera One(версия: 115.0.5322.119)
       ОС Windows 10 Pro 64
   steps-to-reproduce: |
